@@ -1,0 +1,7 @@
+/*Style Tampilan untuk mode tablet */
+
+@media screen and (max-width: 768px) {
+    nav ul {
+        width: 50%;
+    }
+}

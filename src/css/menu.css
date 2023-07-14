@@ -1,0 +1,132 @@
+/* style Untuk Content 3/Menu */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+#menu {
+  width: 100%;
+  height: 100vh;
+  background-color: #111;
+}
+
+@media screen and (max-width: 576px) {
+  #menu {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .title-menu{
+    width: 100%;
+    height: 20vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .title-menu h2 {
+    font-size: 2em;
+  }
+  .bungkusan {
+    width: 80%;
+    height: 80vh;
+    padding: 16px;
+    /* background-color: #222; */
+    display: flex;
+    border-radius: 8px;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    overflow: scroll;
+    scroll-behavior: smooth;
+    
+  }
+  .card-menu {
+    background-color: #aeaeae;
+    display: flex;
+    border-radius: 8px;
+    width: 100%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+    /* cursor: pointer; */
+
+  }
+  .img-menu {
+    background-color: white;
+    width: 100%;
+    height: 20vh;
+    /* margin: 10px; */
+    border-radius: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* box-shadow: 1px 1px 1px 1px black; */
+  }
+  .img-menu h3 {
+    color: black;
+    text-decoration: underline;
+  }
+  .card-menu h1 {
+    font-size: 1.5em;
+    color: black;
+  }
+
+
+
+  .deskripsi-menu {
+    background-color: #567189;
+    border-radius: 0px 0px 8px 8px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-wrap: wrap;
+    padding: .7em;
+    /* margin-top: 10px; */
+  }
+  .deskripsi-menu h4 {
+    margin: 6px;
+  }
+  .deskripsi-menu a {
+    background-color: white;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 9px;
+    text-decoration: none;
+    transition: all .5s;
+  }
+  .deskripsi-menu a:hover {
+    background-color: tomato;
+    color: white;
+  }
+  .deskripsi-menu a:active {
+    background-color: tomato;
+    color: white;
+
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

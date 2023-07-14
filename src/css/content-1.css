@@ -1,0 +1,86 @@
+/* Style Untuk Content 1 / Tampilan Utama*/
+
+.container-content-1 {
+    background-image: url(../../images/bgramen2.jpg);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+
+}
+
+.card {
+    /* background-color: blueviolet; */
+    margin: auto;
+    padding: 5%;
+    width: 60%;
+    /* height: 50vh; */
+    text-align: center;
+}
+
+.card h1 {
+    color: #fff;
+    font-size: 3.7em;
+    font-family: cursive;
+    margin-top: 1em;
+}
+
+.card p {
+    color: #fff;
+    margin: 7em;
+}
+
+.card a {
+    text-decoration: none;
+    color: #fff;
+    background-color: #567189;
+    border-radius: 5px;
+    margin-top: 1.9em;
+    padding: .5em;
+}
+
+.card a:hover {
+    background-color: #fff;
+    color: #222;
+}
+
+card a:active {
+    background-color: #fff;
+    color: #222;
+}
+
+/* style Content 1 untuk Mode Mobile */
+@media screen and (max-width: 576px) {
+    .container-content-1 {
+        background-image: url(../../images/bg-ramen-mobile.jpg);
+        background-position: right 10px;
+
+    }
+
+    .card {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        margin-top: 140px;
+        align-items: center;
+    }
+
+    .card h1 {
+        font-size: 1.8em;
+        margin-top: 1em;
+    }
+
+    .card p {
+        width: 90%;
+        font-size: 1em;
+        margin-top: 4em;
+        margin-bottom: 10px;
+    }
+
+    .card a {
+        margin-top: 8em;
+    }
+}
